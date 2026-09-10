@@ -1,88 +1,57 @@
-# DeadCommunity — Product Showcase
+# DeadCommunity — Product Showcase (index)
 
-Bu depo **kaynak kod içermez**. DeadCommunity ekosisteminde canlı çalışan ürünlerin kısa özetidir: ne yaptık, hangi rolde, nereden denenebilir.
+Bu depo **kaynak kod içermez**. Tüm ürünlerin listesi ve her birinin **ayrı showcase** reposuna linkidir.
 
-Hesap: [Semaru47](https://github.com/Semaru47) · Canlı: [deadcommunity.com](https://deadcommunity.com)
-
----
-
-## Ana platform
-
-| Ürün | Ne işe yarar | Canlı |
-|------|----------------|-------|
-| **DeadCommunity Web** | Ana site, blog/CMS, ekip sayfaları, navigasyon | [deadcommunity.com](https://deadcommunity.com) |
-| **DeadForum** | Topluluk forumu (v2) | [forum.deadcommunity.com](https://forum.deadcommunity.com) |
-| **Portföy — İlhami Malik** | Kişisel portföy sitesi | [malik.deadcommunity.com](https://malik.deadcommunity.com) |
-| **Portföy — Utku** | Kişisel portföy sitesi | [utku.deadcommunity.com](https://utku.deadcommunity.com) |
-
-**Yığın (özet):** Next.js, Django CMS, PostgreSQL, Redis, Docker, Cloudflare Tunnel, Nginx.
+Profil: [github.com/Semaru47](https://github.com/Semaru47) · Canlı: [deadcommunity.com](https://deadcommunity.com)
 
 ---
 
-## Web araçları
+## Ayrı ürün repoları
 
-| Ürün | Ne işe yarar | Canlı |
-|------|----------------|-------|
-| **DeadPDF** | PDF araçları (dönüştürme, TTS, AI yardımcıları) | [pdf.deadcommunity.com](https://pdf.deadcommunity.com) |
-| **DeadVideo** | Tarayıcıda video düzenleme | [video.deadcommunity.com](https://video.deadcommunity.com) |
-| **DeadSound** | Ses düzenleme | [sound.deadcommunity.com](https://sound.deadcommunity.com) |
-| **DeadImage** | Görsel araçları | [image.deadcommunity.com](https://image.deadcommunity.com) |
-| **DeadQR** | QR üretimi | [qr.deadcommunity.com](https://qr.deadcommunity.com) |
-| **DeadColor** | Renk araçları | [color.deadcommunity.com](https://color.deadcommunity.com) |
-| **DeadDiff** | Metin / diff karşılaştırma | [diff.deadcommunity.com](https://diff.deadcommunity.com) |
-| **DeadPaste** | Paste / snippet paylaşım | [paste.deadcommunity.com](https://paste.deadcommunity.com) |
-| **DeadSummarize** | Metin özetleme | [summarize.deadcommunity.com](https://summarize.deadcommunity.com) |
-| **Bounty** | Ödül / görev panosu | sunucu üzerinde aktif (`:3040`) |
+### Platforms
+| Ürün | Live | Repo |
+|------|------|------|
+| Web | [deadcommunity.com](https://deadcommunity.com) | [deadcommunity-web](https://github.com/Semaru47/deadcommunity-web) |
+| Forum | [forum.deadcommunity.com](https://forum.deadcommunity.com) | [deadcommunity-forum](https://github.com/Semaru47/deadcommunity-forum) |
+| Portfolio Malik | [malik…](https://malik.deadcommunity.com) | [deadcommunity-portfolio-malik](https://github.com/Semaru47/deadcommunity-portfolio-malik) |
+| Portfolio Utku | [utku…](https://utku.deadcommunity.com) | [deadcommunity-portfolio-utku](https://github.com/Semaru47/deadcommunity-portfolio-utku) |
 
-**Yığın (özet):** Containerize edilmiş web uygulamaları, Nginx reverse proxy, yerel AI (Ollama) entegrasyonları (PDF vb.).
+### Discord
+| Ürün | Live | Repo |
+|------|------|------|
+| Anime | [anime…](https://anime.deadcommunity.com) | [deadcommunity-anime](https://github.com/Semaru47/deadcommunity-anime) |
+| Music | [music…](https://music.deadcommunity.com) | [deadcommunity-music](https://github.com/Semaru47/deadcommunity-music) |
+| Boss | [boss…](https://boss.deadcommunity.com) | [deadcommunity-boss](https://github.com/Semaru47/deadcommunity-boss) |
+| İndirim | Discord | [deadcommunity-indirim](https://github.com/Semaru47/deadcommunity-indirim) |
 
----
+### Tools
+| Ürün | Live | Repo |
+|------|------|------|
+| PDF | [pdf…](https://pdf.deadcommunity.com) | [deadcommunity-pdf](https://github.com/Semaru47/deadcommunity-pdf) |
+| Video | [video…](https://video.deadcommunity.com) | [deadcommunity-video](https://github.com/Semaru47/deadcommunity-video) |
+| Sound | [sound…](https://sound.deadcommunity.com) | [deadcommunity-sound](https://github.com/Semaru47/deadcommunity-sound) |
+| Image | [image…](https://image.deadcommunity.com) | [deadcommunity-image](https://github.com/Semaru47/deadcommunity-image) |
+| QR | [qr…](https://qr.deadcommunity.com) | [deadcommunity-qr](https://github.com/Semaru47/deadcommunity-qr) |
+| Color | [color…](https://color.deadcommunity.com) | [deadcommunity-color](https://github.com/Semaru47/deadcommunity-color) |
+| Diff | [diff…](https://diff.deadcommunity.com) | [deadcommunity-diff](https://github.com/Semaru47/deadcommunity-diff) |
+| Paste | [paste…](https://paste.deadcommunity.com) | [deadcommunity-paste](https://github.com/Semaru47/deadcommunity-paste) |
+| Summarize | [summarize…](https://summarize.deadcommunity.com) | [deadcommunity-summarize](https://github.com/Semaru47/deadcommunity-summarize) |
+| Bounty | server | [deadcommunity-bounty](https://github.com/Semaru47/deadcommunity-bounty) |
 
-## Discord & topluluk botları
-
-| Ürün | Ne işe yarar | Panel / not |
-|------|----------------|-------------|
-| **Dead Anime** | Anime odaklı Discord bot + web | [anime.deadcommunity.com](https://anime.deadcommunity.com) |
-| **Dead Music** | Müzik botu + dashboard | [music.deadcommunity.com](https://music.deadcommunity.com) |
-| **Dead Bot (Boss)** | Topluluk yönetim botu + panel | [boss.deadcommunity.com](https://boss.deadcommunity.com) |
-| **Dead İndirim** | İndirim / fırsat botu | Discord bot (port `8085`) |
-
-**Yığın (özet):** Discord API, Node/Python servisleri, Postgres, Redis, MinIO, Nginx panelleri.
-
----
-
-## Altyapı & iletişim (kendi sunucumuz)
-
-| Ürün | Ne işe yarar |
-|------|----------------|
-| **Matrix + Element + LiveKit** | Kendi chat / voice altyapısı (Synapse, Element Web, LiveKit, Coturn) |
-| **DeadCoDrive** | Dosya / drive servisi |
-| **Dead Hub** | Araçlar ana menü / hub |
-| **Dead Ops** | Operasyon / sunucu yardımcıları |
-| **Cloudflare Tunnel** | Public hostname → localhost yönlendirme |
-| **Open WebUI + Ollama** | Yerel LLM arayüzü |
-| **Minecraft / Palworld** | Topluluk oyun sunucuları |
+### Infra & extras
+| Ürün | Repo |
+|------|------|
+| Contact (Matrix/Element/LiveKit) | [deadcommunity-contact](https://github.com/Semaru47/deadcommunity-contact) |
+| Drive | [deadcommunity-drive](https://github.com/Semaru47/deadcommunity-drive) |
+| Hub | [deadcommunity-hub](https://github.com/Semaru47/deadcommunity-hub) |
+| Games | [deadcommunity-games](https://github.com/Semaru47/deadcommunity-games) |
 
 ---
 
-## Bu depoda ne var / ne yok?
+## Mimari
 
-| Var | Yok |
-|-----|-----|
-| Ürün listesi, amaç, canlı linkler | Kaynak kod |
-| Yüksek seviye tech özeti | `.env`, secret, API key |
-| Mimari notlar (`ARCHITECTURE.md`) | Production compose / şifreler |
+Yüksek seviye diyagram: [`ARCHITECTURE.md`](./ARCHITECTURE.md)
 
-Kaynak kod **private** tutulur. Bu repo yalnızca “ne yaptık” vitrini.
+## Not
 
----
-
-## Nasıl okunur?
-
-1. Yukarıdaki tablolardan ürünü seç.
-2. Canlı linki aç — çalışan ürünü gör.
-3. Detay için: [`ARCHITECTURE.md`](./ARCHITECTURE.md) · [`PROJECTS.md`](./PROJECTS.md)
-
----
-
-*Son güncelleme: 2026-09-10 — sunucuda o an çalışan container’lara göre.*
+Public = vitrin. Production kaynak kodu private kalır.
