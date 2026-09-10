@@ -1,47 +1,40 @@
-# Proje kartları
+# Project cards
 
-Her satır: sunucuda **aktif** (veya canlı hostname’i olan) bir ürün grubu.
+Each entry maps to a product group that was **active** on our infrastructure when this index was published. Open the linked repo for the full English write-up.
 
 ## deadcommunity-web
 
-- **Rol:** Marka sitesi, içerik, navigasyon
-- **Canlı:** https://deadcommunity.com
-- **Öne çıkanlar:** Çok dilli / CMS menü, ekip portföyleri bağlantıları, mobil UX
+- **Role:** Brand site, content, navigation  
+- **Live:** https://deadcommunity.com  
 
-## deadforum
+## deadcommunity-forum
 
-- **Rol:** Topluluk forumu
-- **Canlı:** https://forum.deadcommunity.com
-- **Not:** Forum v2 container’ı da ayakta; DNS şu an tunnel üzerinden yayınlanıyor
+- **Role:** Community forum  
+- **Live:** https://forum.deadcommunity.com  
 
-## portfolios (malik / utku)
+## Portfolios (malik / utku)
 
-- **Rol:** Kurucu portföyleri
-- **Canlı:** https://malik.deadcommunity.com · https://utku.deadcommunity.com
+- **Role:** Founder portfolio sites  
+- **Live:** https://malik.deadcommunity.com · https://utku.deadcommunity.com  
 
-## tool-suite
+## Tool suite
 
-- PDF, Video, Sound, Image, QR, Color, Diff, Paste, Summarize
-- Her biri ayrı container + hostname (veya local port)
+PDF, Video, Sound, Image, QR, Color, Diff, Paste, Summarize — each with its own container and (usually) hostname.
 
-## discord-ecosystem
+## Discord ecosystem
 
-- Anime, Music, Boss, İndirim botları + web panelleri
-- Postgres / Redis / MinIO kullanan tam stack’ler
+Anime, Music, Boss, Indirim — bots plus web panels where applicable.
 
-## contact-stack
+## Contact stack
 
-- Synapse (Matrix), Element Web, LiveKit, Coturn
-- Kendi iletişim / ses altyapısı
+Synapse (Matrix), Element Web, LiveKit, Coturn — owned chat/voice infrastructure.
 
-## platform-extras
+## Platform extras
 
-- DeadCoDrive, Dead Hub, Bounty, Dead Ops
-- Oyun sunucuları (Minecraft, Palworld)
-- Open WebUI + Ollama
+DeadCoDrive, Dead Hub, Bounty, game servers, local LLM UI (Open WebUI + Ollama).
 
-## Bilerek vitrine alınmayanlar
+## Intentionally not listed as “products”
 
-- Ham `postgres` / `redis` imajları (altyapı, ürün değil)
-- Backup klasörleri, secret dosyaları
-- Third-party image’lerin kendisi (ürün bizim orchestration + domain katmanımız)
+- Raw `postgres` / `redis` images (infrastructure, not products)  
+- Backup folders and secret files  
+- Third-party images themselves (our work is orchestration + product UX + domains)

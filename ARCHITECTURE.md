@@ -1,6 +1,6 @@
-# Mimari (yüksek seviye)
+# Architecture (high level)
 
-Kaynak kod yok. Sadece nasıl parçalandığı.
+No source code — only how the system is split.
 
 ```
 Internet
@@ -9,22 +9,22 @@ Internet
 Cloudflare Tunnel ──► public hostnames (*.deadcommunity.com)
    │
    ▼
-Nginx / app containers (host localhost ports)
+Nginx / app containers (localhost ports on the host)
    │
-   ├── Web: Next.js (ana site) + Django CMS
-   ├── Forum, tool suite (PDF, video, sound, image, …)
-   ├── Discord bot stacks (API + dashboard + DB)
+   ├── Web: Next.js (main site) + Django CMS
+   ├── Forum + tool suite (PDF, video, sound, image, …)
+   ├── Discord bot stacks (API + dashboard + databases)
    ├── Matrix / Element / LiveKit
    └── Games (Minecraft, Palworld)
 ```
 
-## Tipik katmanlar
+## Typical layers
 
-1. **Edge:** Cloudflare DNS + Tunnel (TLS dışarıda)
-2. **App:** Docker Compose ile izole servisler
-3. **Data:** PostgreSQL, Redis, MinIO (ürüne göre)
-4. **AI (isteğe bağlı):** Ollama (PDF / özet vb.)
+1. **Edge:** Cloudflare DNS + Tunnel (TLS at the edge)  
+2. **App:** Docker Compose isolated services  
+3. **Data:** PostgreSQL, Redis, MinIO (per product)  
+4. **AI (optional):** Ollama for PDF / summarize helpers  
 
-## Güvenlik notu
+## Security note
 
-Public vitrinde secret yok. Production secret’lar sunucuda ve private ortamlarda kalır.
+Public showcases never include secrets. Production credentials stay on the server and in private environments.
