@@ -12,7 +12,7 @@ Cloudflare Tunnel ──► public hostnames (*.deadcommunity.com)
 Nginx / app containers (localhost ports on the host)
    │
    ├── ▣ Web: Next.js (main site) + Django CMS
-   ├── ▣ Forum + tool suite (PDF, video, sound, image, …)
+   ├── ▣ Forum + tool suite (PDF, video (+ Pro NLE), sound, image, …)
    ├── ▣ Discord bot stacks (API + dashboard + databases)
    ├── ▣ Matrix / Element / LiveKit
    └── ▣ Games (Minecraft, Palworld)
