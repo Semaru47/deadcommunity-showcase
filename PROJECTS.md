@@ -10,7 +10,7 @@ Each entry maps to a product that was **active** on our infrastructure when publ
 ▸ [deadcommunity-anime](https://github.com/Semaru47/deadcommunity-anime) · [deadcommunity-music](https://github.com/Semaru47/deadcommunity-music) · [deadcommunity-boss](https://github.com/Semaru47/deadcommunity-boss) · [deadcommunity-indirim](https://github.com/Semaru47/deadcommunity-indirim)
 
 ### ▣ Tools
-▸ PDF · Video · Sound · Image · QR · Color · Diff · Paste · Summarize · Bounty
+▸ PDF · Video ([Pro NLE](https://edit.deadcommunity.com)) · Sound · Image · QR · Color · Diff · Paste · Summarize · Bounty
 
 ### ▣ Infra
 ▸ Contact · Drive · Hub · Games
